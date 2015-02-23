@@ -4,7 +4,9 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-
+     
+# If x is not in Cache, call cacheSolve and add to cache and return inverse
+#Else if x is in cache, return inverse from cache
 }
 
 
@@ -12,4 +14,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
+
+	y <- solve(x)
 }
